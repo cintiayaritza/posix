@@ -1,0 +1,73 @@
+
+// Pacheco Mex Cintya Yaritza
+
+
+Comandos cmd windows
+
+Comandos para el trabajo con ficheros
+
+Estos son comandos del CMD que se centran en el trabajo y tratamiento con los archivos que tenemos guardados en las unidades de disco de muchas formas y en profundidad.
+
+    ATTRIB: nos permite ver además de modificar los atributos de cualquier archivo del equipo para así ampliar su capacidad de uso. Podremos indicarlo como de solo lectura, para un control total, tan solo de escritura, etc.
+    COMP: compara el contenido de dos archivos o un conjunto de archivos de manera directa.
+    COMPACT: nos permite ver además de modificar el estado de compresión de los archivos indicados en el comando, todo ello válido en particiones NTFS.
+    COPY: nos deja copiar uno o más archivos en otra ubicación del disco duro.
+    DEL: elimina uno o un conjunto de ficheros especificados de los guardados en el equipo.
+    ERASE: comando para borrar uno o un grupo de archivos que le indiquemos previamente.
+    FC: nos permite comparar dos o más archivos y además nos ofrece como salida las
+    diferencias entre todos los especificados.
+    FIND: para buscar una cadena de texto en uno o más archivos que indicamos en el mismo comando.
+    FTYPE: enseña en pantalla los tipos de archivo usados en las extensiones que indiquemos. Igualmente nos permite modificar esos tipos asociados
+    MOVE: para mover uno o un grupo de archivos de un directorio a otro o en la ubicación que le indiquemos.
+    RENAME: comando para cambiar el nombre de uno o de un grupo de archivos.
+    REPLACE: para reemplazar ficheros.
+
+Comandos para el trabajo con directorios
+
+Aquí vamos a encontrar una serie de órdenes que nos permiten gestionar a mano los directorios guardados en las unidades de disco
+
+    CD: nos permite movernos entre las carpetas del sistema escribiendo el comando y la ruta de destino. Además muestra el nombre del directorio actual por sí solo.
+    CHDIR: nos deja ver el nombre del directorio actual o cambia a otro, muy parecido a CD.
+    DIR: muestra una lista de todos los archivos y subdirectorios en que se encuentran ubicados en el directorio actual o en cualquier otro que le indiquemos.
+    MKDIR: para crear un nuevo directorio.
+    RD: para eliminar un directorio.
+    TREE: nos permite visualizar en forma de árbol la estructura de directorios de una unidad de disco completa, o de un directorio que especificamos
+    XCOPY:  permite copiar tanto archivos independientes como estructuras de directorios completos.
+
+Comandos de red
+
+Si quieres conocer todos los detalles de tu conexión a Internet o de la red local, estos comandos no te pueden faltar para ejecutar desde el CMD.
+
+    IPCONFIG: nos permite visualizar toda la información de las tarjetas de red del equipo de manera detallada.
+    PING: este es un comando que nos permite comprobar de manera sencilla el estado de nuestra conexión. En el caso de detectar problemas, sirve para identificar su causa.
+    TRACERT: establece una ruta desde el equipo local hasta el servidor de destino y muestra todos los saltos que hace la conexión hasta llegar al punto final y ver dónde puede haber errores de conexión en concreto.
+    NETSAT: nos deja controlar, analizar y diagnosticar una red desde el CMD, además permite conocer las conexiones que hay abiertas en el equipo PC, tanto locales como remotas.
+    NSLOOKUP: permite saber si el servidor DNS que tenemos configurado por defecto está traduciendo correctamente las URL a las direcciones IP que se corresponden.
+    NBTSTAT: para ver las estadísticas del protocolo TCP/IP y las conexiones actuales que hay establecidas en el equipo.
+
+Comandos del sistema
+
+En este apartado nos encontramos con una lista de comandos CMD para administrar algunas partes muy importantes referentes al funcionamiento y comportamiento del propio sistema operativo.
+
+    CHKDSK: potente comando para las unidades de disco que comprueba la integridad de las mismas y ofrece un informe del estado de cada una de ellas.
+    CHKNTFS: nos permite ver además de modificar la comprobación de disco al arrancar el sistema operativo.
+    CLS: borra la pantalla activa por completo.
+
+    CMD: inicia una nueva ventana del símbolo del sistema como el que tenemos en ejecución en ese momento.
+    COLOR: nos permite cambiar los colores del primer plano y del fondo para trabajar aquí de la mejor manera, en la línea de comandos.
+    CONVERT: convierte las unidades de disco formateadas en FAT a volúmenes NTFS a excepción de la actual, es decir, aplicable al resto de discos del equipo.
+    DATE: nos deja visualizar o establece la fecha actual del sistema operativo y el PC.
+    DISKPART: nos enseña y nos permite configurar las propiedades de la partición del disco en el que nos encontramos en estos instantes.
+    DRIVERQUERY: permite que veamos en pantalla el estado y las propiedades actuales de los controladores del equipo.
+    EXIT: nos sirve para cerrar la sesión actual de la línea de comandos.
+    FORMAT: se usa con el fin de formatear un disco duro completo.
+    FSUTIL: nos permite ver o configurar las propiedades del sistema de archivos de la unidad de disco.
+    HELP: nos presenta en pantalla información adicional y los parámetros para los comandos indicados.
+    LABEL: permite crear, cambiar o eliminar la etiqueta del volumen de una unidad de disco.
+    PRINT: comando para imprimir archivos de texto.
+    RECOVER: intenta recupera la información de una unidad de disco que se haya dañado o que esté defectuosa por alguna razón.
+    SHUTDOWN: nos permite realizar tanto un apagado local como remoto del ordenador.
+    SYSTEMINFO: nos muestra en pantalla todas las propiedades y las configuraciones del equipo.
+    TIME: podremos ver o modificar la hora del sistema operativo.
+    TYPE: para ver el contenido de un archivo de texto.
+    VER: nos muestra la versión de Windows con la que trabajamos.
