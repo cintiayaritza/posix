@@ -1,0 +1,49 @@
+
+
+Cintya Yaritza Pacheco Mex
+practica 5 
+comandos basicos para buscar y manipular archivos 
+
+
+grep "linux" hola
+  grep -r hola
+    grep -i hola
+    grep -i "LINUX" hello
+    grep -i "LINUX" hola
+    grep -n "linux" hola
+    grep -n "mundo" hola
+    wc -L hola
+    echo -e "col1 col2 r1\ncol5 col6 r2\ncol3 col4 r3 " >> new.txt
+    cut -f1 -d' ' new.txt
+    paste hello new.txt
+    paste hola  new.txt
+    paste -s  hola  new.txt
+    sort new.txt
+    diff hello grep "linux" hola
+    grep -r hola
+    grep -i hola
+    grep -i "LINUX" hello
+    grep -i "LINUX" hola
+    grep -n "linux" hola
+    grep -n "mundo" hola
+    wc -L hola
+    echo -e "col1 col2 r1\ncol5 col6 r2\ncol3 col4 r3 " >> new.txt
+    cut -f1 -d' ' new.txt
+    paste hello new.txt
+    paste hola  new.txt
+    paste -s  hola  new.txt
+    sort new.txt
+    diff hello linux.txt 
+    diff hola  linux.txt 
+    diff hola LINUX.txt 
+    diff hola linux
+   diff hola linux.txt
+   echo -e "HOLA\nlinux\nprogrammers paradise" >> linux.txt
+   diff hola linux.txtlinux.txt 
+    diff hola  linux.txt 
+    diff hola LINUX.txt 
+    diff hola linux
+    diff hola linux.txt
+    echo -e "HOLA\nlinux\nprogrammers paradise" >> linux.txt
+   diff hola linux.txt
+   
