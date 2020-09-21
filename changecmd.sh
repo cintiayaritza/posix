@@ -12,42 +12,42 @@ pwd
 #There is a file named access.log in the current directory. Print the contents.
 cat access.log
 #163.56.115.58 - - [09/Jan/2017:22:29:57 +0100] "GET /posts/2/display HTTP/1.0" 200 3240
-75.113.188.234 - - [09/Jan/2017:22:30:43 +0100] "GET /posts/foo?appID=xxxx HTTP/1.0" 200 1116
-69.16.40.148 - - [09/Jan/2017:22:34:33 +0100] "GET /pages/create HTTP/1.0" 500 3471
-225.219.54.140 - - [09/Jan/2017:22:35:30 +0100] "GET /posts/foo?appID=xxxx HTTP/1.0" 500 2477
-207.243.19.2 - - [09/Jan/2017:22:38:03 +0100] "GET /bar/create HTTP/1.0" 200 1116
-199.37.62.156 - - [09/Jan/2017:22:42:18 +0100] "GET /posts/1/display HTTP/1.0" 200 2477
-55.74.240.123 - - [09/Jan/2017:22:44:25 +0100] "POST /posts/1/display HTTP/1.0" 200 3471
-251.111.109.143 - - [09/Jan/2017:22:49:02 +0100] "GET /posts/foo?appID=xxxx HTTP/1.0" 200 2477
-101.163.230.250 - - [09/Jan/2017:22:52:31 +0100] "DELETE /posts/2/display HTTP/1.0" 404 2477
-200.19.168.148 - - [09/Jan/2017:22:57:11 +0100] "GET /posts/foo?appID=xxxx HTTP/1.0" 200 3471
+#75.113.188.234 - - [09/Jan/2017:22:30:43 +0100] "GET /posts/foo?appID=xxxx HTTP/1.0" 200 1116
+#69.16.40.148 - - [09/Jan/2017:22:34:33 +0100] "GET /pages/create HTTP/1.0" 500 3471
+#225.219.54.140 - - [09/Jan/2017:22:35:30 +0100] "GET /posts/foo?appID=xxxx HTTP/1.0" 500 2477
+#207.243.19.2 - - [09/Jan/2017:22:38:03 +0100] "GET /bar/create HTTP/1.0" 200 1116
+#199.37.62.156 - - [09/Jan/2017:22:42:18 +0100] "GET /posts/1/display HTTP/1.0" 200 2477
+#55.74.240.123 - - [09/Jan/2017:22:44:25 +0100] "POST /posts/1/display HTTP/1.0" 200 3471
+#251.111.109.143 - - [09/Jan/2017:22:49:02 +0100] "GET /posts/foo?appID=xxxx HTTP/1.0" 200 2477
+#101.163.230.250 - - [09/Jan/2017:22:52:31 +0100] "DELETE /posts/2/display HTTP/1.0" 404 2477
+#200.19.168.148 - - [09/Jan/2017:22:57:11 +0100] "GET /posts/foo?appID=xxxx HTTP/1.0" 200 3471
 
 #Print the last 5 lines of "access.log".
 tail -5 access.log
-199.37.62.156 - - [09/Jan/2017:22:42:18 +0100] "GET /posts/1/display HTTP/1.0" 200 2477
-55.74.240.123 - - [09/Jan/2017:22:44:25 +0100] "POST /posts/1/display HTTP/1.0" 200 3471
-251.111.109.143 - - [09/Jan/2017:22:49:02 +0100] "GET /posts/foo?appID=xxxx HTTP/1.0" 200 24771
-01.163.230.250 - - [09/Jan/2017:22:52:31 +0100] "DELETE /posts/2/display HTTP/1.0" 404 2477
-200.19.168.148 - - [09/Jan/2017:22:57:11 +0100] "GET /posts/foo?appID=xxxx HTTP/1.0" 200 3471
+#199.37.62.156 - - [09/Jan/2017:22:42:18 +0100] "GET /posts/1/display HTTP/1.0" 200 2477
+#55.74.240.123 - - [09/Jan/2017:22:44:25 +0100] "POST /posts/1/display HTTP/1.0" 200 3471
+#251.111.109.143 - - [09/Jan/2017:22:49:02 +0100] "GET /posts/foo?appID=xxxx HTTP/1.0" 200 24771
+#01.163.230.250 - - [09/Jan/2017:22:52:31 +0100] "DELETE /posts/2/display HTTP/1.0" 404 2477
+#200.19.168.148 - - [09/Jan/2017:22:57:11 +0100] "GET /posts/foo?appID=xxxx HTTP/1.0" 200 3471
 
 #Create an empty file named take-the-command-challenge in the current working directory.
-touch take-the-command-challenge 
+#touch take-the-command-challenge 
 
 #Create a directory named tmp/files in the current working directory
-mkdir -vp tmp/files
+#mkdir -vp tmp/files
 #mkdir: created directory 'tmp'mkdir: 
 #created directory 'tmp/files'
 
 #Copy the file named take-the-command-challenge to the directory tmp/files
-cp take-the-command-challenge tmp/files/
+#cp take-the-command-challenge tmp/files/
 
 #Move the file named take-the-command-challenge to the directory tmp/files
-Mov take-the-command-challenge tmp/files/ 
+#Mov take-the-command-challenge tmp/files/ 
 
 #A symbolic link is a type of file that is a reference to another file.
 
-Create a symbolic link named take-the-command-challenge that points to the file tmp/files/take-the-command-challenge.
-ln tmp/files/take-the-command-challenge -s
+#Create a symbolic link named take-the-command-challenge that points to the file tmp/files/take-the-command-challenge.
+#ln tmp/files/take-the-command-challenge -s
 
 rm -R * .*
 #rm: refusing to remove '.' or '..' directory: skipping '.'
@@ -90,25 +90,25 @@ grep -h 500 **/access.log
 grep -ohr ^[0-9.]* **/access.log*
 
 #Count the number of files in the current working directory. Print the number of files as a single integer.
-163.56.115.58
-75.113.188.234
-69.16.40.148
-225.219.54.140
-207.243.19.2
-199.37.62.156
-55.74.240.123
-251.111.109.143
-101.163.230.250
-200.19.168.148
-108.68.174.15
-17.2.20.139
-28.151.137.59
-199.150.241.179
-2.71.250.27
-17.137.186.194
-151.84.119.34
-4.180.204.195
-9.230.96.54
+#163.56.115.58
+#75.113.188.234
+#69.16.40.148
+#225.219.54.140
+#207.243.19.2
+#199.37.62.156
+#55.74.240.123
+#251.111.109.143
+#101.163.230.250
+#200.19.168.148
+#108.68.174.15
+#17.2.20.139
+#28.151.137.59
+#199.150.241.179
+#2.71.250.27
+#17.137.186.194
+#151.84.119.34
+#4.180.204.195
+#9.230.96.54
 157.143.233.21
 
 ls -l wc -l 
@@ -151,18 +151,18 @@ cat sum-me.txt|paste -sd+ |bc
 #Print all files in the current directory recursively without the leading directory path.
 
 find * -type f -printf '%f\n'
-corporis.xl
-sanimi.doc
-odit.doc
-beatae.flac
-error.doc
-libero.xls
-necessitatibus.doc
-totam
+#corporis.xl
+#sanimi.doc
+#odit.doc
+#beatae.flac
+#error.doc
+#libero.xls
+#necessitatibus.doc
+#totam
 
 #Rename all files removing the extension from them in the current directory recursively.
 rm -r /*
-aompletar txt
+acompletar txt
 
 #The files in this challenge contain spaces. List all of the files (filenames only) in the current directory but replace all spaces with a '.' character.
 find * | tr ' ' '.' 
