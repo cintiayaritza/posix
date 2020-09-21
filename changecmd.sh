@@ -1,5 +1,7 @@
 #!/bin/bash #
 
+#ejercicio de manejo de consola  en linea https://cmdchallenge.com
+
 #Print the current working directory.
 pwd
 #List names of all the files in the current directory, one file per line.
