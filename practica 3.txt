@@ -1,0 +1,30 @@
+
+
+Cintya Yaritza Pacheco Mex
+practicar 3 manejos de archivos copia , mover y eliminar.
+
+du
+    du -xh ~
+    du --max-depth 3 ~
+    cp -v hola. txt dir2
+    cp -v hola.txt dir2
+    cp -v hola.txt dir2 /file2.txt
+    cp -v hola.txt dir2/file2.txt
+    cp -vr dir2/*.txt dir2/dir3
+   cp -vr dir2/dir3
+    ls
+    md5sum hola.txt
+   md5sum dir2/hola.txt
+   mv hola.txt dir/2/dir3/dir4/hi.txt
+    mv hola.txt dir2/dir3/dir4/hi.txt
+    ls
+    mkdir dir5
+    mv dir2/*.txt dir5
+    mv dir5 dir50
+    ln dir2/dir3/dir4/hi.txt hola
+    stat hola
+    stat  dir2/dir3/dir4/hi.txt 
+    ln -s dir2/dir3/dir4/hi.txt softlink
+    rm -i file2.txt
+    rm -ir dir50/*
+   rmdir dir50

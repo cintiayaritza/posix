@@ -1,0 +1,47 @@
+
+Cintya Yaritza Pachecoo Mex
+
+practicar 1 y 2 manejos de archivos 
+
+sudo login cintya
+pwd
+    mkdir -v dir1
+    mkdir -vdir2
+    mkdir -v dir2
+   mkdir -v dir2/dir3
+  mkdir -v dir2/dir3/dir4
+    mkdir -vp dir2/dir3/dir4/dir5
+    ls
+    ls-R
+    ls -r
+    ls -R
+    cd dir2
+   cd -
+
+    touch file1.txt
+    touch file2.txt
+    stat file1.txt
+    // es para modificar los parametros de fecha de archivo timestamp 
+   touch -a --date="2020-09-10" file1.txt
+   // este para modificar fecha y hora de archivo timesttamp 
+    touch -a --date="2020-09-10 15:30"  file1.txt
+    touch -a --date="2020-09-10 15:30 :30.534567284 +0500"  file1.txt
+    stat file1.txt
+    dir
+    ls -C
+    ls -b
+    clear
+    echo "hola"
+    echon"hola" > hola.txt
+    echo "hola" > hola.txt
+    echo "linux" >> hola.txt
+    echo "mundo" >> hola.tx
+   cat hola.txt
+   head hola.txt
+    tail -2 hola.txt
+    tail  hola.txt
+    stat hello.txt
+    stat hola.txt
+    stat dir
+    stat dir1
+    

@@ -1,0 +1,76 @@
+
+
+Cintya Yaritza Pacheco Mex
+practica 4
+comandos basicos para administrar los procesos
+
+   pps
+   
+   sleep 60&
+    sleep 60 &
+    ps
+    sleep 60 &
+    kill -p 12345
+    ps
+    kill 12345
+    ps
+    kill - 12345
+    ps -P 12345
+    ps
+    sleep 30 &
+    ps
+    killall sleep
+    killall -u user
+    killall -U user
+    killall -w find
+    killall -W find
+    pidof bash
+    pidof -s bash
+    nice -n 19 sleepp 30 &
+    nice -N 19 sleepp 30 &
+    renice -n 19 12345
+    renice -N 19 12345
+    renice -n 19 12345
+    renice +1
+    renice +1 -u user
+    renice 
+    renice +1 -u user
+    top
+    sudo login root
+    pstree
+    pstree -p
+    time ls -ls
+    sleep 60&
+    sleep 60 &
+    ps
+    sleep 60 &
+    kill -p 12345
+    ps
+    kill 12345
+    ps
+    kill - 12345
+    ps -P 12345
+    ps
+    sleep 30 &
+    ps
+    killall sleep
+   killall -u user
+    killall -U user
+    killall -w find
+   killall -W find
+   pidof bash
+   pidof -s bash
+   nice -n 19 sleepp 30 &
+   nice -N 19 sleepp 30 &
+    renice -n 19 12345
+    renice -N 19 12345
+    renice -n 19 12345
+    renice +1
+    renice +1 -u user
+    renice 
+    renice +1 -u user
+    top
+    sudo login root
+    pstree
+    pstree -p
+  time ls -l
