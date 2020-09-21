@@ -1,6 +1,6 @@
 
 //Pacheco Mex cintya Yaritza 
-
+// es un juego donde aprendes usar los comandos 
 
 nivel o entrar a servidor 
 ssh -p 2220 bandit0@bandit.labs.overthewire.org
