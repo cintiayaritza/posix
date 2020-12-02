@@ -1,3 +1,14 @@
+# parcial final 
+
+[evidencia ![hackerank](https://github.com/cintiayaritza/posix/blob/master/128543356_221087922719393_3945231622675476825_n.jpg)
+
+
+
+
+
+
+
+
 # posix practicas de asciinema 
 
 
