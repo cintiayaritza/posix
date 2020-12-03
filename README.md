@@ -2,8 +2,7 @@
 
 [evidencia hackerank ![](https://github.com/cintiayaritza/posix/blob/master/128543356_221087922719393_3945231622675476825_n.jpg)
 
-[menu [asciicast](https://asciinema.org/a/ElxrnjUZbNwLEJVrDQiPW4sQj.png)](https://asciinema.org/a/ElxrnjUZbNwLEJVrDQiPW4sQj)
-
+[MENU ![asciicast](https://asciinema.org/a/ElxrnjUZbNwLEJVrDQiPW4sQj.png)](https://asciinema.org/a/ElxrnjUZbNwLEJVrDQiPW4sQj)
 
 
 
